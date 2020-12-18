@@ -1,0 +1,197 @@
+/*Tag Selectors*/
+body {
+  text-align: center;
+  background-color: #ffff;
+  font-family: "DejaVu Sans Mono", monospace;
+  margin: 0 0 0 0;
+}
+
+.titles {
+  color: #617be3;
+  margin: 20px 0 20px;
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.80rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #9ACEFF;
+  border-width: 7px;
+  width: 10%;
+}
+
+a
+ {  color: #617be3;
+}
+
+/*Class Selectors*/
+
+.head-favicon {
+  position: fixed;
+  top: 20px;
+  left: 0;
+}
+
+.mask {
+  background-color: #a1c2ff;
+  height: 680px;
+  margin: 0 0 100px 0;
+  display: grid;
+}
+
+.top-container {
+  background-color: #9aceff;
+  /* imposti i margini partendo dal top, left, bottom e right*/
+  margin: 100px 8% 100px 8%;
+  border-radius: 50%;
+  height: 480px;
+}
+
+.cloud1 {
+  position: absolute;
+  width: 20%;
+  top: 2%;
+  left: 18%;
+  display: block;
+}
+
+.cloud2 {
+  position: absolute;
+  width: 23%;
+  top: 10%;
+  left: 60%;
+  display: block;
+}
+
+.Landscape {
+  width: 30%;
+}
+
+.avatar {
+  width: 200px;
+  display: block;
+  margin: 50px auto 0 auto;
+}
+
+.avatar-container {
+  text-align: center;
+  color: #545454;
+  padding: 40px 0 100px 0;
+}
+
+.middle-container {
+    color: #545454;
+    margin: 100px 0 150px 0;
+}
+
+
+.skills-div {
+  width: 70%;
+  margin: 0 auto 0 auto;
+}
+
+.Skills {
+  padding: 50px 0 50px 0;
+  margin: 0 auto 0 auto;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.Cod {
+  width: 23%;
+  float: left;
+  margin-right: 40px;
+}
+
+.Perm {
+  width: 24%;
+  float: right;
+  margin-left: 40px;
+}
+
+.Uku {
+  width: 23%;
+  float: left;
+  margin-right: 40px;
+}
+
+.Sil {
+  width: 26%;
+  float: right;
+  margin-left: 40px;
+}
+
+.button-container {
+  text-align: center;
+  color: #545454;
+  padding: 50px 0 100px 25px;
+}
+
+.myButton {
+	box-shadow:inset 0 0 0 0 #9aceff;
+	background:linear-gradient(to bottom, #9aceff 5%, #a1c2ff 100%);
+	background-color:#9aceff;
+	border-radius:17px;
+	border:3px solid #a1c2ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:0 0 0 #528ecc;
+  margin-top: 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #a1c2ff 5%, #9aceff 100%);
+	background-color:#a1c2ff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  color: #545454;
+  padding: 100px 0 50px 0;
+}
+
+.Vacation {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  display: block;
+}
+
+.footer-link {
+  background-color: #A1C2FF;
+  padding: 20px;
+  }
+
+.links {
+  margin: 15px;
+}
+
+.links:hover {
+  color: #Eaf6f6;
+}
+
+.Copyright {
+  color: #Eaf6f6;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
